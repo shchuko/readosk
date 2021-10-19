@@ -7,3 +7,9 @@ Build & install:
 make
 make install
 ```
+
+Usage:
+
+```bash
+qemu-system-x86_64 -device "isa-applesmc,osk=$(readosk)"
+```
